@@ -19,7 +19,7 @@
 
 ### Apis
 
-1. Post -  `/`
+1. Post -  **/**
     ```
       /
 
@@ -28,14 +28,12 @@
     
 2. Get - `/files`
     ```
-     /files
-     
      -returns the collection data
     ```
     
-3. Post
+3. Post - `/files`
     ```
-     /files
+     
          
      -accepts a json request body with key value as per the csv file and stores in the db
 
