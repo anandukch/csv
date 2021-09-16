@@ -17,7 +17,9 @@
     ```
 4. A sample csv file is provided in the root folder
 
-### Apis
+## Apis
+
+### All apis will work only if there a bearer `token` (which is included in the .env file) in the header
 
 1. Post -  `/`
     ```
