@@ -19,10 +19,8 @@
 
 ### Apis
 
-1. Post -  **/**
+1. Post -  `/`
     ```
-      /
-
       -contains a csv form data with key (name) - csv
     ```
     
@@ -32,30 +30,20 @@
     ```
     
 3. Post - `/files`
-    ```
-     
-         
+   ```     
      -accepts a json request body with key value as per the csv file and stores in the db
-
     ```
-4. Get
+4. Get-`/files/:id`
     ```
-     /files/:id
-
      -return the details of the data corresponding to the id
     ```
     
-5. Delete
+5. Delete-`/files/:id`
     ```
-     /files/:id
-
      -delete and returns the details of the data corresponding to the id
-
     ```
-6. Put
+6. Put-`/files/:id`
     ```
-     /files/:id
-
     - accepts a json request body with key value as per the csv file 
      and updates the data with the "id"
     ```
