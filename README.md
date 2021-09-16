@@ -15,24 +15,25 @@
     ```
     npm start
     ```
+4. A sample csv file is provided in the root folder
 
 ### Apis
 
-1. Post
+1. Post -  `/`
     ```
       /
 
       -contains a csv form data with key (name) - csv
     ```
     
-2. Get
+2. Get - `/files`
     ```
      /files
      
      -returns the collection data
     ```
     
-3. Posts
+3. Post
     ```
      /files
          
