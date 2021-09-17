@@ -16,7 +16,7 @@
     ```
     npm start
     ```
-4. A sample csv file is provided in the root folder
+4. A sample csv file is provided in the root folder as per the schema
 
 ## Apis
 
