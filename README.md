@@ -25,7 +25,7 @@ use sample token 'allow' to test the app
 
 1. Post -  `/`
     ```
-      -contains a csv form data with key (name) - csv
+      -accepts a csv file with key (name) - csv
     ```
     
 2. Get -  `/files`
