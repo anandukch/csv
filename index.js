@@ -28,7 +28,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(path.resolve(__dirname, "public")));
 connectDb();
 
-app.use("/",  csvRouter);
+app.use("/", auth, csvRouter);
 
 app.listen(3000, function () {
   console.log("server started");
