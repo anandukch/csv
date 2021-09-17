@@ -6,6 +6,7 @@
         MONGO_URL=<mongoUrl>
         TOKEN=<token>
     ```
+    
 
 2. Install dependencies
     ```
@@ -20,6 +21,7 @@
 ## Apis
 
 ### All apis will work only if there a bearer `token` (which is included in the .env file) in the header
+use sample token 'allow' to test the app
 
 1. Post -  `/`
     ```
