@@ -6,6 +6,6 @@ module.exports = (req, res, next) => {
       res.status(401).json({ messgae: "Token not valid" });
     }
   } catch (error) {
-    res.status(401).json({ messgae: "Token not found" });
+    res.status(401).json({ messgae: "Token not found ; Use token 'allow' to test the app" });
   }
 };
