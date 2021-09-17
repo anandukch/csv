@@ -29,7 +29,7 @@ app.use(express.static(path.resolve(__dirname, "public")));
 connectDb();
 
 app.use("/", auth, csvRouter);
-
-app.listen(3000, function () {
+const port =process.env.PORT || 3000;
+app.listen(port, function () {
   console.log("server started");
 });
